@@ -1,17 +1,33 @@
 <!DOCTYPE html>
+
+
 <html>
+	
+	
 <head>
+	
 <meta charset="utf-8">
 <title>Top 10 Locations Under Attack</title>
+	
 <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
 <link href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css" rel="stylesheet">
+	
 <script src="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js"></script>
+	
+	
 <style>
+	
 body { margin: 0; padding: 0; }
+	
 #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+	
 </style>
+	
 </head>
+	
+	
 <body>
+	
 <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
 <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css" type="text/css">
 <div id="map"></div>
@@ -19,10 +35,12 @@ body { margin: 0; padding: 0; }
 <script>
 	mapboxgl.accessToken = 'pk.eyJ1IjoicDBsbyIsImEiOiJjbDFtYmhvOXMwMTFvM29wZ2R4ODBlbXhzIn0.ZPmr2huPPp-xxVVfA_6u5Q';
 const map = new mapboxgl.Map({
+	
 container: 'map',
 style: 'mapbox://styles/mapbox/streets-v11',
 center: [30.48, 50.40],
 zoom: 9
+	
 });
  
 map.addControl(
