@@ -5,7 +5,7 @@ var map = new mapboxgl.Map({
 
 container: 'map',
 style: 'mapbox://styles/mapbox/streets-v11',
-center: [30, 50], 
+center: [30.8, 50.5], 
 zoom: 9 
 
 })
